@@ -284,7 +284,7 @@ target_link_libraries(
   PRIVATE Boost::json
   PUBLIC c-kzg-4844
   PRIVATE PkgConfig::brotli
-  PRIVATE PkgConfig::crypto++
+  PRIVATE PkgConfig::cryptopp
   PUBLIC ethash::keccak
   PUBLIC evmc
   PUBLIC intx::intx
